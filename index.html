@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- site daisyUI -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.11.1/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <!-- feuille tailwind -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>tailwind</title>
+</head>
+<body>
+    <!-- bg=background : H=height : p=padding -->
+<header class="bg-[url('images/hero-bg.jpg')] bg-fixed  bg-blend-color bg-[#0000002c] bg-center h-screen p-6 bg-cover ">
+    <!-- pour prendre la photo prendre le code sur le cite tailwind -->
+    <nav class="flex justify-around items-center">
+        <a href=""><img class="w-24" src="/images/logo.png" alt=""></a>
+        <ul class=" text-white flex gap-9 items-center">
+        <li><a href="">Home</a></li>
+        <li><a href="">About</a></li>
+        <li><a href="">Services</a></li>
+        <li><a href="">Projets</a></li>
+        <li><a href="">Contact</a></li>
+        <!-- <li><a class="p-4 rounded-full bg-[#fb2056] hover:bg-[#90204d]" href="">Link action</a></li> -->
+        <li><a class="rounded-full px-4 py-4  text-white bg-[#fb2056] hover:bg-[#77B5FE]" href="">Link action</a></li>
+    </ul>
+    </nav>
+    <main class="h-screen">
+        <h1 class="text-center text-6xl m-56 text-white">Main section</h1>
+        </main>
+</header>
+
+</body>
+</html>
